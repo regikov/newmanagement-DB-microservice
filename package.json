@@ -1,0 +1,27 @@
+{
+  "name": "practice-news-microservice",
+  "version": "1.0.0",
+  "description": "News Portal Management System =============================",
+  "main": "index.js",
+
+  "scripts": {
+    "build": "tsc",
+    "dev": "node build/article-service/server.js"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
